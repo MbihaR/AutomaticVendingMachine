@@ -89,16 +89,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <h3>Recharge Balance</h3>
     <form action="recharge.php" method="POST">
         <div class="form-group row">
-          <div class="col-sm-6 col-lg-6">
+          <div class="col-sm-10 col-lg-6">
             <label for="card-number" class="col-sm-2 col-form-label">Card Number:</label>
-            <div class="col-sm-6 col-lg-6">
+            <div class="col-sm-10 col-lg-6">
                 <input type="text" class="form-control" id="card-number" name="card_number" placeholder="Enter card number" required>
             </div>
             <div>
         </div>
         <div class="form-group row">
             <label for="payment-option" class="col-sm-2 col-form-label">Payment Option:</label>
-            <div class="col-sm-6 col-lg-6">
+            <div class="col-sm-10 col-lg-6">
                 <select class="form-control" id="payment-option" name="payment_option" required>
                     <option value="">Select Payment Option</option>
                     <option value="mobile_money">Mobile Money</option>
