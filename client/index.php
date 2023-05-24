@@ -7,7 +7,6 @@ $card_number = $result = $balance = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Get POST parameter
   $card_number =  trim($_POST["card_number"]);
-
   $sql = "SELECT card_amount FROM customer WHERE card_number=?";
   $stmt = $link->prepare($sql);
   // Set parameters
