@@ -1,7 +1,6 @@
 <?php
 // Include db file
 require_once "../includes/db.php";
-
 $card_number = $result = $balance = "";
 
 // Attempt select query execution
